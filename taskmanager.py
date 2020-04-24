@@ -5,21 +5,6 @@ import os
 
 """
 This program will manage a list of tasks using a Firestore database.
-
-To run this program:
-1) Need to create a Firebase account
-2) Need to create a FIrebase project.  The project name needs
-   to be set in the initialize_firestore function.
-3) Need to create a Firestore database in Firebase
-4) Need to get a Serivce Account Key file (json file) and 
-   set the name in the initialize_firestore function.
-5) Need to install firebase-admin (pip install firebase-admin)
-
-Useful Links:
-https://firebase.google.com/docs/firestore/quickstart
-https://console.firebase.google.com/
-https://console.developers.google.com/
-https://cloud.google.com/docs/authentication/getting-started
 """
 
 def initialize_firestore():
@@ -135,7 +120,7 @@ while not exit_program:
         params = command.split(",")
         # Perform the action based on the first parameter
         if params[0] == "h" and len(params) == 1:
-            print("q,<o|c|a>,<category|*> - display")
+            print("q,<o|c|a>,<category|*> - query (o=open, c=closed, a=all)")
             print("c,<id> - close")
             print("o,<id> - re-open")
             print("i,<category>,<description> - insert")
