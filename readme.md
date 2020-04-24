@@ -12,10 +12,10 @@ To run this program:
 5) Need to install firebase-admin (`pip install firebase-admin`)
 
 # Useful Links
-https://firebase.google.com/docs/firestore/quickstart
-https://console.firebase.google.com/
-https://console.developers.google.com/
-https://cloud.google.com/docs/authentication/getting-started
+* https://firebase.google.com/docs/firestore/quickstart
+* https://console.firebase.google.com/
+* https://console.developers.google.com/
+* https://cloud.google.com/docs/authentication/getting-started
 
 # Commands
 TaskManager has a simple command line interface.  The commands include the following:
