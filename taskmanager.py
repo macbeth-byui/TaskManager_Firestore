@@ -13,7 +13,7 @@ def initialize_firestore():
     """
 
     # Setup Google Cloud Key
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "keys/google_service_api_key.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "google_service_api_key.json"
 
     # Use the application default credentials
     cred = credentials.ApplicationDefault()
